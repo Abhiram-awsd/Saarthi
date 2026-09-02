@@ -13,7 +13,7 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
 function Brand() {
-  return <Link className="brand" to="/"><span className="brand-mark">A</span><span><strong>SAARTHI</strong><small>Your path to the right financial support.</small></span></Link>;
+  return <Link className="brand" to="/"><span className="brand-mark"><img src="/saarthi-logo.png" alt="SAARTHI logo" /></span><span><strong>SAARTHI</strong><small>Your path to the right financial support.</small></span></Link>;
 }
 
 const nav = [

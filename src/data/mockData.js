@@ -50,10 +50,10 @@ export const schemes = [
 ];
 
 export const partners = [
-  { id: 1, name: "State Channelizing Agency", type: "SCA", distance: "4.2 km", status: "Accepting applications", color: "good", schemes: ["PMEGP", "STANDUP", "MUDRA"] },
-  { id: 2, name: "SBI — Main Branch", type: "PSB", distance: "6.1 km", status: "Accepting applications", color: "good", schemes: ["PMEGP", "MUDRA"] },
-  { id: 3, name: "Grameena Bank", type: "RRB", distance: "8.3 km", status: "Accepting applications", color: "good", schemes: ["PMEGP"] },
-  { id: 4, name: "NBFC — Urban", type: "NBFC-MFI", distance: "12.6 km", status: "Limited capacity", color: "warn", schemes: ["MUDRA"] }
+  { id: 1, name: "State Channelizing Agency", type: "SCA", distance: "4.2 km", lat: 17.4065, lng: 78.4772, status: "Accepting applications", color: "good", schemes: ["PMEGP", "STANDUP", "MUDRA"] },
+  { id: 2, name: "SBI — Main Branch", type: "PSB", distance: "6.1 km", lat: 17.3957, lng: 78.4647, status: "Accepting applications", color: "good", schemes: ["PMEGP", "MUDRA"] },
+  { id: 3, name: "Grameena Bank", type: "RRB", distance: "8.3 km", lat: 17.3616, lng: 78.4747, status: "Accepting applications", color: "good", schemes: ["PMEGP"] },
+  { id: 4, name: "NBFC — Urban", type: "NBFC-MFI", distance: "12.6 km", lat: 17.4440, lng: 78.3762, status: "Limited capacity", color: "warn", schemes: ["MUDRA"] }
 ];
 
 export const application = {
